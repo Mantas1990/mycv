@@ -1,0 +1,227 @@
+.sidenav{
+  background-color: #d8d8d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightside{
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+}
+.introleft{
+  background-color: #e7e7e7;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+.introright{
+  background-color: #f2f2f2;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.expertiseleft{
+  background-color: #d8d8d8;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+.expertiseright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.skillsleft{
+  background-color: #e7e7e7;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+.skillsright{
+  background-color: #f2f2f2;
+  padding: 15px;
+  display: flex;
+}
+
+.experienceleft{
+  background-color: #f2f2f2;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+.experienceright{
+  background-color: #b6b6b6;
+  padding: 15px 15px 0px 15px;
+  padding:
+  display: flex;
+  align-items: center;
+}
+
+.eduleft{
+  background-color: #e7e7e7;
+  padding: 15px;
+}
+
+.eduright{
+  background-color: #d8d8d8;
+  padding: 15px;
+}
+.profleft{
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.profright{
+  background-color: #f0f0f0;
+  padding: 15px;
+}
+
+.awardsleft {
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.awardsright{
+  background-color: #d8d8d8;
+  padding: 15px;
+}
+
+.portleft{
+  background-color: #cecccc;
+  padding: 15px;
+}
+
+.portright{
+  background-color: #a7a4a4;
+  padding: 15px;
+}
+
+.clleft{
+  background-color: #e7e7e7;
+  padding: 15px;
+}
+
+.clright{
+  background-color: #d8d8d8;
+  padding: 15px;
+}
+
+.contleft{
+  background-color: #cecccc;
+  padding: 15px;
+}
+
+.contright{
+  background-color: #a7a4a4;
+  padding: 15px;
+}
+
+.expertiselist{
+  /* border: 1px solid red; */
+}
+
+.row1 {
+  height: 100vh;
+}
+
+/* .row3 {
+  height: 100vh;
+} */
+
+.photo {
+  border-radius: 100%;
+  width: 70%;
+  transition: transform .2s;
+}
+
+.photo:hover{
+  transform: scale(1.2);
+}
+
+.portright img {
+    width: 100%;
+    padding: 15px;
+
+}
+
+.vpav{
+padding-left: 20px;
+margin-bottom: 30px;
+}
+
+.pav {
+  color: green;
+}
+
+.var {
+  color: grey;
+  position: relative;
+  top: 16px;
+}
+
+p {
+  color: grey;
+  position: relative;
+  }
+
+.line {
+height: 2px;
+background-color: grey;
+}
+.line1 {
+height: 5px;
+background-color: yellow;
+max-width: 40% !important;
+margin-bottom: 10px;
+}
+
+.topbott{
+  /* height: 50px;
+  margin-bottom: 35px; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.num{
+    color: #ffd147;
+}
+
+.topics{
+  color: grey;
+}
+
+.ylwtxt {
+  color: #ffd147;
+}
+
+.skl{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* .exprow{
+  padding-top: 15px;
+} */
+
+.vertical-line{
+  border: 1px solid grey;
+  width: 1px;
+  height: 100%;
+  float: left;
+}
+
+.profright img{
+  padding-top: 10px;
+}
