@@ -1,16 +1,15 @@
-window.onscroll = function() {
-  scrollFunction()
-};
+let intervalId = 0;
+const $scrollButton = document.querySelector('.scroll');
 
-function scrollFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    document.getElementById("goTop").style.display = "block";
-  } else {
-    document.getElementById("goTop").style.display = "none";
+function scrollStep() {
+  if (window.pageYOffset === 0) {
+    clearInterval(intervalId);
   }
+  window.scroll(0, window.pageYOffset - 50);
 }
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+function scrollToTop() {
+  intervalId = setInterval(scrollStep, 16.66);
 }
+
+$scrollButton.addEventListener('click', scrollToTop);
