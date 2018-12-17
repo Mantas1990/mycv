@@ -13,3 +13,8 @@ function scrollToTop() {
 }
 
 $scrollButton.addEventListener('click', scrollToTop);
+
+// printbtn
+function myFunction() {
+  window.print();
+}

@@ -7,11 +7,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>CV Forma</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mantas Bražionis CV</title>
 </head>
 
 <body>
-  <!-- <button onclick="topFunction()" id="goTop" title="Go to top">Top</button> -->
 
   <div class="top">
     <div class="container-fluid">
@@ -20,35 +20,35 @@
 
         <div class="col-xs-12 col-md-9 rightside">
           <div class="vpav">
-            <h1 class="var">Mantas</h1>
-            <h1 class="pav">BRAŽIONIS</h1>
+            <p class="var">Mantas</p>
+            <p class="pav">BRAŽIONIS</p>
             <p>Junior Front End Developer</p>
           </div>
+
           <div class="row topbott">
             <div class="col-md-12 line">
-
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="bold">
-                <p>Location</p>
+                <p class="mar">Location</p>
               </div>
               <p>Laisvės pr. 45A-48, 07192 Vilnius, Lithuania</p>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-2">
               <div class="bold">
-                <p>Phone</p>
+                <p class="mar">Phone</p>
               </div>
-              <p>+370 624 59276</p>
+              <p>8 624 59276</p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="bold">
-                <p>Date of birth</p>
+                <p class="mar">Date of birth</p>
               </div>
               <p>6 January 1990</p>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="bold">
-                <p>Email</p>
+                <p class="mar">Email</p>
               </div>
               <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">brazionis.mantas@gmail.com</a>
             </div>
@@ -99,7 +99,7 @@
           <div class="container-fluid">
             <div class="row">
 
-              <div class="col-xs-1 col-sm-1 col-md-1">
+              <div class="col-xs-1 col-sm-1 col-md-1 line3">
                 <div class="vertical-line"></div>
                 <img class="pin" src="pin.png" alt="pin">
               </div>
@@ -123,7 +123,7 @@
               <div class="container-fluid">
                 <div class="row exprow">
 
-                  <div class="col-xs-1 col-sm-1 col-md-1">
+                  <div class="col-xs-1 col-sm-1 col-md-1 line3">
                     <div class="vertical-line"></div>
                     <img class="pin" src="pin.png" alt="pin">
                   </div>
@@ -160,7 +160,7 @@
           <div class="container-fluid">
             <div class="row">
 
-              <div class="col-xs-1 col-sm-1 col-md-1">
+              <div class="col-xs-1 col-sm-1 col-md-1 line3">
                 <div class="vertical-line"></div>
                 <img class="pin" src="pin.png" alt="pin">
               </div>
@@ -176,7 +176,7 @@
               <div class="container-fluid">
                 <div class="row exprow">
 
-                  <div class="col-xs-1 col-sm-1 col-md-1">
+                  <div class="col-xs-1 col-sm-1 col-md-1 line3">
                     <div class="vertical-line"></div>
                     <img class="pin" src="pin.png" alt="pin">
                   </div>
@@ -368,13 +368,21 @@
         </div>
         <div class="col-xs-12 col-md-9 clright">
           <b>Software</b>
-          <div>
-            <p><span class="softw">AutoCAD (up to 1 y.)</span> <span class="softw">Coreldraw (basics)</span> <br>
-              <span class="softw">Excel (4 y. and more.)</span> <span class="softw">Photoshop (1-2 y.)</span> </p>
-          </div>
+
+          <p><span class="softw">AutoCAD (up to 1 y.)</span> <span class="softw">Coreldraw (basics)</span> <br>
+            <span class="softw">Excel (5 y. and more.)</span> <span class="softw">Photoshop (1-2 y.)</span> <br>
+            <span class="softw">PowerPoint (5 y. and more.)</span> <span class="softw">Word (5 y. and more.)</span> </p>
+
+          <b>Database</b>
+          <p> <span class="softw">Oracle (basics)</span> </p>
+          <b>Programming</b>
+          <p><span class="softw">C# (basics)</span> <span class="softw">C++ (basics)</span> <br>
+            <span class="softw">HTML (basics)</span> <span class="softw">CSS (basics)</span> <br>
+            <span class="softw">JavaScript (basics)</span> </p>
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <div class="profiles">
@@ -501,14 +509,13 @@
               <a href="img\4.jpg" data-lightbox="image-1" data-title="My caption"><img src="img\4.jpg" alt="Photo4"></a>
 
             </div>
-            <div class="col-xs-12 col-md-6 photo1">
+            <!-- <div class="col-xs-12 col-md-6 photo1">
               <a href="img\5.jpg" data-lightbox="image-1" data-title="My caption"><img src="img\5.jpg" alt="Photo5"></a>
 
             </div>
             <div class="col-xs-12 col-md-6 photo1">
               <a href="img\6.jpg" data-lightbox="image-1" data-title="My caption"><img src="img\6.jpg" alt="Photo6"></a>
-
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -583,6 +590,7 @@
         </div>
         <div class="col-xs-12 col-md-9 contright">
           <p>Tekstas</p>
+          <button onclick="myFunction()">Print CV</button>
         </div>
       </div>
     </div>

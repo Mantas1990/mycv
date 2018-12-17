@@ -1,3 +1,7 @@
+body {
+  min-width: 300px;
+}
+
 .sidenav {
   background-color: #d8d8d8;
   display: flex;
@@ -114,12 +118,12 @@
 }
 
 .contleft {
-  background-color: #cecccc;
+  background-color: #f2f2f2;
   padding: 15px;
 }
 
 .contright {
-  background-color: #a7a4a4;
+  background-color: #e7e7e7;
   padding: 15px;
 }
 
@@ -149,6 +153,10 @@
   padding: 15px;
 }
 
+.mar {
+  margin-bottom: 0px;
+}
+
 .vpav {
   padding-left: 20px;
   margin-bottom: 30px;
@@ -156,19 +164,22 @@
 
 .pav {
   color: green;
+  font-size: 32px;
+  margin: 0px;
 }
 
 .var {
   color: grey;
   position: relative;
   top: 16px;
+  font-size: 32px;
+  margin: 0px;
 }
 
-p, b, li {
+/* p, b, li {
   color: grey;
   position: relative;
-}
-
+} */
 .line {
   height: 2px;
   background-color: grey;
@@ -289,4 +300,35 @@ table {
   background-color: #555;
 }
 
-/* -----------test------------- */
+@media only screen and (max-width: 767.98px) {
+  .photo {
+    border-radius: 100%;
+    width: 50%;
+  }
+
+  .vpav {
+    align-self: flex-start;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rightside {
+    background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    height: 70%;
+  }
+
+  .sidenav {
+    background-color: #d8d8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+  }
+
+  .line3 {
+    display: none;
+  }
+}
