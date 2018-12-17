@@ -280,4 +280,8 @@ table {
   .photo:hover {
     transform: none;
   }
+
+  .footerft {
+    display: none;
+  }
 }
