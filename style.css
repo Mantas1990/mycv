@@ -127,17 +127,12 @@ body {
   padding: 15px;
 }
 
-.expertiselist {
-  /* border: 1px solid red; */
-}
+.expertiselist {}
 
 .row1 {
   height: 100vh;
 }
 
-/* .row3 {
-  height: 100vh;
-} */
 .photo {
   border-radius: 100%;
   width: 70%;
@@ -176,10 +171,6 @@ body {
   margin: 0px;
 }
 
-/* p, b, li {
-  color: grey;
-  position: relative;
-} */
 .line {
   height: 2px;
   background-color: grey;
