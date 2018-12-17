@@ -2,14 +2,14 @@ body {
   min-width: 300px;
 }
 
-.sidenav {
+.topleft {
   background-color: #d8d8d8;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.rightside {
+.topright {
   background-color: #fbfbfb;
   display: flex;
   align-items: center;
@@ -26,19 +26,6 @@ body {
   padding: 15px;
   display: flex;
   align-items: center;
-}
-
-.expertiseleft {
-  background-color: #d8d8d8;
-  padding-top: 15px;
-  padding-left: 50px;
-}
-
-.expertiseright {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
 }
 
 .experienceleft {
@@ -77,37 +64,35 @@ body {
   padding: 15px;
 }
 
-.awardsleft {
+.additionalleft {
   background-color: #f2f2f2;
   padding: 15px;
 }
 
-.awardsright {
+.additionalright {
   background-color: #d8d8d8;
   padding: 15px;
 }
 
-.clleft {
+.knowledgeleft {
   background-color: #e7e7e7;
   padding: 15px;
 }
 
-.clright {
+.knowledgeright {
   background-color: #d8d8d8;
   padding: 15px;
 }
 
-.contleft {
+.footerleft {
   background-color: #f2f2f2;
   padding: 15px;
 }
 
-.contright {
+.footerright {
   background-color: #e7e7e7;
   padding: 15px;
 }
-
-.expertiselist {}
 
 .row1 {
   height: 100vh;
@@ -273,14 +258,14 @@ table {
     margin-right: auto;
   }
 
-  .rightside {
+  .topright {
     background-color: #fbfbfb;
     display: flex;
     align-items: center;
     height: 70%;
   }
 
-  .sidenav {
+  .topleft {
     background-color: #d8d8d8;
     display: flex;
     align-items: center;
